@@ -1,0 +1,11 @@
+Write a program that computes and prints the average of the numbers in a text file. You should make use of two higher-order functions to simplify the design.
+
+An example of the program input and output is shown below:
+
+Enter the input file name: numbers.txt
+
+The average is 69.83333333333333
+
+Grading
+
+When you have completed your program, click the Submit button to record your score.

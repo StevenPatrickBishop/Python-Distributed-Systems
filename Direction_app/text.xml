@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+    
+    <info>
+        <statusCode>0</statusCode>
+        <copyright>
+            <imageUrl>http://api.mqcdn.com/res/mqlogo.gif</imageUrl>
+            <imageAltText>\xc2\xa9 2019 MapQuest, Inc.</imageAltText>
+            <text>\xc2\xa9 2019 MapQuest, Inc.</text>
+        </copyright>
+    </info>
+    
+    <routeError>
+        <errorCode>-400</errorCode>
+        <message></message>
+    </routeError>
+    
+    <route>
+        <sessionId>5e5c1619-0293-6750-02b4-184a-0a6e89fcda09</sessionId>
+        <options>
+            <shapeFormat>raw</shapeFormat>
+            <generalize>-1.0</generalize>
+            <maxLinkId>0</maxLinkId>
+            <narrativeType>text</narrativeType>
+            <stateBoundaryDisplay>true</stateBoundaryDisplay>
+            <countryBoundaryDisplay>true</countryBoundaryDisplay>
+            <sideOfStreetDisplay>true</sideOfStreetDisplay>
+            <destinationManeuverDisplay>true</destinationManeuverDisplay>
+            <avoidTimedConditions>false</avoidTimedConditions>
+            <enhancedNarrative>false</enhancedNarrative>
+            <returnLinkDirections>false</returnLinkDirections>
+            <timeType>0</timeType>
+            <routeType>FASTEST</routeType>
+            <locale>en_US</locale>
+            <unit>M</unit>
+            <tryAvoidLinkIds></tryAvoidLinkIds>
+            <mustAvoidLinkIds></mustAvoidLinkIds>
+            <manmaps>true</manmaps>
+            <drivingStyle>2</drivingStyle>
+            <highwayEfficiency>22.0</highwayEfficiency>
+            <useTraffic>false</useTraffic>
+        </options>
+       
+        <boundingBox>
+            <ul><lat>41.958569</lat><lng>-73.091507</lng></ul>
+            <lr><lat>41.87569</lat><lng>-73.055748</lng></lr>
+        </boundingBox>
+        
+        <distance>7.218</distance>
+        <time>716</time>
+        <realTime>733</realTime>
+        <fuelUsed>0.37</fuelUsed>
+        <formattedTime>00:11:56</formattedTime>
+        <legs>
+            <leg>
+                <distance>7.218</distance>
+                <time>716</time>
+                <formattedTime>00:11:56</formattedTime>
+                <index>0</index>
+                <maneuvers>
+                    <maneuver>
+                        <startPoint>
+                            <lat>41.9586</lat>
+                            <lng>-73.0915</lng>
+                        </startPoint>
+                        <maneuverNotes/>
+                        <distance>0.096</distance>
+                        <time>23</time>
+                        <formattedTime>00:00:23</formattedTime>
+                        <attributes>0</attributes>
+                        <turnType>6</turnType>
+                        <direction>8</direction>
+                        <narrative>Start out going east on Indian Meadow Dr toward Marshall St.</narrative>
+                        <directionName>East</directionName>
+                        <index>0</index>
+                        <streets>
+                            <street>Indian Meadow Dr</street>
+                        </streets>
+                        <signs/>
+                        <iconUrl><![CDATA[http://content.mqcdn.com/mqsite/turnsigns/rs_left_sm.gif]]></iconUrl>
+                        <linkIds/>
+                        <mapUrl><![CDATA[http://www.mapquestapi.com/staticmap/v5/map?key=xwWAq0XyW2WYOp2DcAJDFcPeCOuunXwg&size=225,160&locations=41.95856857299805,-73.09150695800781|marker-2||41.958473205566406,-73.08971405029297|marker-3||&center=41.95852088928223,-73.09061050415039&defaultMarker=none&zoom=14&rand=-1075978725&session=5e5c1619-0293-6750-02b4-184a-0a6e89fcda09]]></mapUrl>
+                    </maneuver>
+                    <maneuver>
+                        <startPoint>
+                            <lat>41.9585</lat>
+                            <lng>-73.0897</lng>
+                        </startPoint>
+                        <maneuverNotes/>
+                        <distance>1.144</distance>
+                        <time>127</time>
+                        <formattedTime>00:02:07</formattedTime>
+                        <attributes>0</attributes>
+                        <turnType>2</turnType>
+                        <direction>4</direction>
+                        <narrative>Turn right onto Marshall St.</narrative>
+                        <directionName>South</directionName>
+                        <index>1</index>
+                        <streets>
+                            <street>Marshall St</street>
+                        </streets>
+                        <signs/>
+                        <iconUrl><![CDATA[http://content.mqcdn.com/mqsite/turnsigns/rs_right_sm.gif]]></iconUrl>
+                        <linkIds/>
+                        <mapUrl><![CDATA[http://www.mapquestapi.com/staticmap/v5/map?key=xwWAq0XyW2WYOp2DcAJDFcPeCOuunXwg&size=225,160&locations=41.958473205566406,-73.08971405029297|marker-3||41.94239807128906,-73.08907318115234|marker-4||&center=41.950435638427734,-73.08939361572266&defaultMarker=none&zoom=9&rand=-1075978725&session=5e5c1619-0293-6750-02b4-184a-0a6e89fcda09]]></mapUrl>
+                    </maneuver>
+                    <maneuver><startPoint><lat>41.9424</lat><lng>-73.0891</lng></startPoint><maneuverNotes/><distance>0.844</distance><time>94</time><formattedTime>00:01:34</formattedTime><attributes>0</attributes><turnType>7</turnType><direction>5</direction><narrative>Turn slight left onto Coe St/CT-183.</narrative><directionName>Southeast</directionName><index>2</index><streets><street>Coe St</street><street>CT-183</street></streets><signs><sign><type>506</type><direction>0</direction><text>183</text><extraText></extraText><url><![CDATA[http://icons.mqcdn.com/icons/rs506.png?n=183]]></url></sign></signs><iconUrl><![CDATA[http://content.mqcdn.com/mqsite/turnsigns/rs_slight_left_sm.gif]]></iconUrl><linkIds/><mapUrl><![CDATA[http://www.mapquestapi.com/staticmap/v5/map?key=xwWAq0XyW2WYOp2DcAJDFcPeCOuunXwg&size=225,160&locations=41.94239807128906,-73.08907318115234|marker-4||41.93152618408203,-73.0828857421875|marker-5||&center=41.93696212768555,-73.08597946166992&defaultMarker=none&zoom=10&rand=-1075978725&session=5e5c1619-0293-6750-02b4-184a-0a6e89fcda09]]></mapUrl></maneuver><maneuver><startPoint><lat>41.9315</lat><lng>-73.0829</lng></startPoint><maneuverNotes/><distance>2.051</distance><time>251</time><formattedTime>00:04:11</formattedTime><attributes>0</attributes><turnType>6</turnType><direction>5</direction><narrative>Turn left onto Main St/US-44 E/CT-183.</narrative><directionName>Southeast</directionName><index>3</index><streets><street>Main St</street><street>US-44 E</street><street>CT-183</street></streets><signs><sign><type>2</type><direction>8</direction><text>44</text><extraText></extraText><url><![CDATA[http://icons.mqcdn.com/icons/rs2.png?n=44&d=EAST]]></url></sign><sign><type>506</type><direction>0</direction><text>183</text><extraText></extraText><url><![CDATA[http://icons.mqcdn.com/icons/rs506.png?n=183]]></url></sign></signs><iconUrl><![CDATA[http://content.mqcdn.com/mqsite/turnsigns/rs_left_sm.gif]]></iconUrl><linkIds/><mapUrl><![CDATA[http://www.mapquestapi.com/staticmap/v5/map?key=xwWAq0XyW2WYOp2DcAJDFcPeCOuunXwg&size=225,160&locations=41.93152618408203,-73.0828857421875|marker-5||41.91596221923828,-73.05574798583984|marker-6||&center=41.923744201660156,-73.06931686401367&defaultMarker=none&zoom=9&rand=-1075978725&session=5e5c1619-0293-6750-02b4-184a-0a6e89fcda09]]></mapUrl></maneuver><maneuver><startPoint><lat>41.916</lat><lng>-73.0557</lng></startPoint><maneuverNotes/><distance>2.387</distance><time>141</time><formattedTime>00:02:21</formattedTime><attributes>128</attributes><turnType>10</turnType><direction>4</direction><narrative>Merge onto CT-8 S toward Torrington/Waterbury.</narrative><directionName>South</directionName><index>4</index><streets><street>CT-8 S</street></streets><signs><sign><type>506</type><direction>4</direction><text>8</text><extraText></extraText><url><![CDATA[http://icons.mqcdn.com/icons/rs506.png?n=8&d=SOUTH]]></url></sign></signs><iconUrl><![CDATA[http://content.mqcdn.com/mqsite/turnsigns/rs_merge_right_sm.gif]]></iconUrl><linkIds/><mapUrl><![CDATA[http://www.mapquestapi.com/staticmap/v5/map?key=xwWAq0XyW2WYOp2DcAJDFcPeCOuunXwg&size=225,160&locations=41.91596221923828,-73.05574798583984|marker-6||41.88410949707031,-73.07142639160156|marker-7||&center=41.9000358581543,-73.0635871887207&defaultMarker=none&zoom=8&rand=-1075978725&session=5e5c1619-0293-6750-02b4-184a-0a6e89fcda09]]></mapUrl></maneuver><maneuver><startPoint><lat>41.8841</lat><lng>-73.0714</lng></startPoint><maneuverNotes/><distance>0.378</distance><time>42</time><formattedTime>00:00:42</formattedTime><attributes>0</attributes><turnType>14</turnType><direction>4</direction><narrative>Take the Pinewoods Rd exit, EXIT 46, toward Burrville.</narrative><directionName>South</directionName><index>5</index><streets/><signs><sign><type>1001</type><direction>0</direction><text>46</text><extraText></extraText><url><![CDATA[http://icons.mqcdn.com/icons/rs1001.png?n=46&d=RIGHT]]></url></sign></signs><iconUrl><![CDATA[http://content.mqcdn.com/mqsite/turnsigns/rs_gr_exitright_sm.gif]]></iconUrl><linkIds/><mapUrl><![CDATA[http://www.mapquestapi.com/staticmap/v5/map?key=xwWAq0XyW2WYOp2DcAJDFcPeCOuunXwg&size=225,160&locations=41.88410949707031,-73.07142639160156|marker-7||41.87875747680664,-73.07278442382812|marker-8||&center=41.88143348693848,-73.07210540771484&defaultMarker=none&zoom=11&rand=-1075978725&session=5e5c1619-0293-6750-02b4-184a-0a6e89fcda09]]></mapUrl></maneuver><maneuver><startPoint><lat>41.8788</lat><lng>-73.0728</lng></startPoint><maneuverNotes/><distance>0.255</distance><time>29</time><formattedTime>00:00:29</formattedTime><attributes>0</attributes><turnType>6</turnType><direction>5</direction><narrative>Turn left onto Pinewoods Rd.</narrative><directionName>Southeast</directionName><index>6</index><streets><street>Pinewoods Rd</street></streets><signs/><iconUrl><![CDATA[http://content.mqcdn.com/mqsite/turnsigns/rs_left_sm.gif]]></iconUrl><linkIds/><mapUrl><![CDATA[http://www.mapquestapi.com/staticmap/v5/map?key=xwWAq0XyW2WYOp2DcAJDFcPeCOuunXwg&size=225,160&locations=41.87875747680664,-73.07278442382812|marker-8||41.87641525268555,-73.06895446777344|marker-9||&center=41.877586364746094,-73.07086944580078&defaultMarker=none&zoom=12&rand=-1075978725&session=5e5c1619-0293-6750-02b4-184a-0a6e89fcda09]]></mapUrl></maneuver><maneuver><startPoint><lat>41.8764</lat><lng>-73.069</lng></startPoint><maneuverNotes/><distance>0.063</distance><time>9</time><formattedTime>00:00:09</formattedTime><attributes>0</attributes><turnType>2</turnType><direction>6</direction><narrative>Turn right onto Industrial Ln.</narrative><directionName>Southwest</directionName><index>7</index><streets><street>Industrial Ln</street></streets><signs/><iconUrl><![CDATA[http://content.mqcdn.com/mqsite/turnsigns/rs_right_sm.gif]]></iconUrl><linkIds/><mapUrl><![CDATA[http://www.mapquestapi.com/staticmap/v5/map?key=xwWAq0XyW2WYOp2DcAJDFcPeCOuunXwg&size=225,160&locations=41.87641525268555,-73.06895446777344|marker-9||41.87569046020508,-73.0697021484375|marker-10||&center=41.87605285644531,-73.06932830810547&defaultMarker=none&zoom=14&rand=-1075978725&session=5e5c1619-0293-6750-02b4-184a-0a6e89fcda09]]></mapUrl></maneuver><maneuver><startPoint/><maneuverNotes/><distance>0.0</distance><time>0</time><formattedTime>00:00:00</formattedTime><attributes>0</attributes><turnType>-1</turnType><direction>0</direction><narrative>318 INDUSTRIAL LN is on the left.</narrative><directionName></directionName><index>8</index><streets/><signs/><linkIds/><mapUrl><![CDATA[]]></mapUrl></maneuver></maneuvers><hasTollRoad>false</hasTollRoad><hasFerry>false</hasFerry><hasHighway>true</hasHighway><hasSeasonalClosure>false</hasSeasonalClosure><hasUnpaved>false</hasUnpaved><hasCountryCross>false</hasCountryCross><hasBridge>false</hasBridge><hasTunnel>false</hasTunnel><hasAccessRestriction>false</hasAccessRestriction><hasTimedRestriction>false</hasTimedRestriction></leg>
+        </legs>
+        <hasTollRoad>false</hasTollRoad>
+        <hasFerry>false</hasFerry>
+        <hasHighway>true</hasHighway>
+        <hasSeasonalClosure>false</hasSeasonalClosure>
+        <hasUnpaved>false</hasUnpaved>
+        <hasCountryCross>false</hasCountryCross>
+        <hasBridge>false</hasBridge>
+        <hasTunnel>false</hasTunnel>
+        <hasAccessRestriction>false</hasAccessRestriction>
+        <hasTimedRestriction>false</hasTimedRestriction>
+        <locations>
+            <location>
+                <street>102 Indian Meadow Dr</street>
+                <adminArea5 type="City">Winsted</adminArea5>
+                <adminArea3 type="State">CT</adminArea3>
+                <adminArea4 type="County">Litchfield</adminArea4>
+                <postalCode>06098-2221</postalCode>
+                <adminArea1 type="Country">US</adminArea1>
+                <geocodeQuality>ADDRESS</geocodeQuality>
+                <geocodeQualityCode>L1AAA</geocodeQualityCode>
+                <dragPoint>false</dragPoint>
+                <sideOfStreet>R</sideOfStreet>
+                <displayLatLng>
+                    <latLng>
+                        <lat>41.958565</lat>
+                        <lng>-73.091507</lng>
+                    </latLng>
+                </displayLatLng>
+                <linkId>57167226</linkId>
+                <type>s</type>
+                <latLng>
+                    <lat>41.958566</lat>
+                    <lng>-73.091508</lng>
+                </latLng>
+            </location>
+            <location>
+                <street>318 Industrial Ln</street>
+                <adminArea5 type="City">Torrington</adminArea5>
+                <adminArea3 type="State">CT</adminArea3>
+                <adminArea4 type="County">Litchfield</adminArea4>
+                <postalCode>06790-7704</postalCode>
+                <adminArea1 type="Country">US</adminArea1>
+                <geocodeQuality>POINT</geocodeQuality>
+                <geocodeQualityCode>P1AAA</geocodeQualityCode>
+                <dragPoint>false</dragPoint>
+                <sideOfStreet>R</sideOfStreet>
+                <displayLatLng>
+                    <latLng>
+                        <lat>41.87569</lat>
+                        <lng>-73.069702</lng>
+                    </latLng>
+                </displayLatLng>
+                <linkId>47242968</linkId>
+                <type>s</type>
+                <latLng>
+                    <lat>41.875689</lat>
+                    <lng>-73.069699</lng>
+                </latLng>
+        </location>
+        </locations>
+        <locationSequence>0,1</locationSequence>
+    <computedWaypoints/>
+    </route>
+</response>

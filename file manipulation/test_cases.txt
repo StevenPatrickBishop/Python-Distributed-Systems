@@ -1,0 +1,3 @@
+python modify.py smbd.txt "obey pam restrictions = yes" "obey pam restrictions = no"
+python modify.py smbd.txt "unix password sync = yes" "unix password sync = no"
+python modify.py smbd.txt "max log size = 1000" "max log size = 2000"
